@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jade Lucero Emperador - Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to my portfolio!!</h1>
+        <nav>
+            <a href="#home"><img src="assets/icons/icon-home.png" alt="Home icon" width="16" height="16"> Home</a> |
+            <a href="#about"><img src="assets/icons/icon-about.png" alt="About Me icon" width="16" height="16"> About
+                Me</a> |
+            <a href="#projects"><img src="assets/icons/icon-projects.png" alt="Projects icon" width="16" height="16">
+                Projects</a> |
+            <a href="#contact"><img src="assets/icons/icon-contact.png" alt="Contact icon" width="16" height="16">
+                Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+            <br><img src="assets/img/picture.png" alt="Profile Picture" width="100" height="100"><br>
+            <p>
+                Hi! I'm Jade Lucero Emperador, a fourth-year Bachelor of Science in Information Technology
+                student at DMMMSU-MLUC. I specialize in front-end web development, basic mobile application development,
+                and IoT systems, blending technical problem-solving with creative design and campus cultural leadership.
+            </p>
+        </section>
+        <section>
+            <h2>Projects</h2>
+            <table border="1" cellspacing="0" cellpadding="8">
+                <thead>
+                    <tr bgcolor="#cccccc" align="left">
+                        <th>Project Name</th>
+                        <th>Description</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr bgcolor="#f2f2f2">
+                        <td>OptiPonics</td>
+                        <td>An IoT-driven optimized aquaponics system with real-time sensor analytics built using ESP32,
+                            Node.js, Express, and MySQL.</td>
+                        <td>2026</td>
+                    </tr>
+                    <tr bgcolor="#ffffff">
+                        <td>Rovers Mobile</td>
+                        <td>A mobile coffee ordering application developed in Android Studio using Kotlin and XML for
+                            seamless customer orders.</td>
+                        <td>2026</td>
+                    </tr>
+                    <tr bgcolor="#f2f2f2">
+                        <td>Student Records Web App</td>
+                        <td>A full-stack CRUD web application built with Laravel 13 and MySQL for managing and
+                            organizing student data.</td>
+                        <td>2026</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Contact Me</h2>
+            <form action="#" method="POST">
+                <div>
+                    <label for="full-name">Full Name:</label>
+                    <input type="text" id="full-name" name="full_name" placeholder="Enter your full name" required>
+                </div>
+                <div>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                </div>
+                <br>
+                <fieldset>
+                    <legend>How did you hear about this portfolio?</legend>
+
+                    <div>
+                        <input type="radio" id="source-friend" name="referral_source" value="friend" required>
+                        <label for="source-friend">Friend</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="source-social" name="referral_source" value="social_media">
+                        <label for="source-social">Social Media</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="source-search" name="referral_source" value="search_engine">
+                        <label for="source-search">Search Engine</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="source-other" name="referral_source" value="other">
+                        <label for="source-other">Other</label>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Skills/Interests:</legend>
+
+                    <div>
+                        <input type="checkbox" id="skill-web" name="interests" value="web_development">
+                        <label for="skill-web">Web Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="skill-mobile" name="interests" value="mobile_development">
+                        <label for="skill-mobile">Mobile App Development</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="skill-iot" name="interests" value="iot_systems">
+                        <label for="skill-iot">IoT &amp; Embedded Systems</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="skill-design" name="interests" value="graphic_design">
+                        <label for="skill-design">Graphic Design</label>
+                    </div>
+                </fieldset>
+                <br>
+                <div>
+                    <label for="comments">Comments or Messages:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="50"
+                        placeholder="Write your message here..."></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Jade Lucero Emperador 2026</p>
+        <p>Connect with me:
+            <a href="https://github.com/itzmrjade" target="_blank"><img src="assets/icons/icon-github.png"
+                    alt="GitHub icon" width="20" height="20"> GitHub</a> |
+            <a href="https://www.linkedin.com/in/mrjadez0" target="_blank"><img src="assets/icons/icon-linkedin.png"
+                    alt="LinkedIn icon" width="20" height="20"> LinkedIn</a> |
+            <a href="https://www.facebook.com/itsmr.jadezo" target="_blank"><img src="assets/icons/icon-facebook.png"
+                    alt="Facebook icon" width="20" height="20"> Facebook</a>
+        </p>
+    </footer>
+</body>
+
+</html>
